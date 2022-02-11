@@ -114,7 +114,10 @@ function createMarker(latlng, name, address, openStatusText, phoneNumber, index)
                 </div>
                 <div class="store-info-address">
                     <div class="circle-1">
-                        <i class="fas fa-location-arrow"></i>
+                        <a href="http://maps.google.com/maps?q=${latlng}&ll=${latlng}&z=17" target="_blank" style="color: white;">
+                            <i class="fas fa-location-arrow"></i>
+                        </a>
+//                         <i class="fas fa-location-arrow"></i>
                     </div>
                     ${address}
                 </div>
